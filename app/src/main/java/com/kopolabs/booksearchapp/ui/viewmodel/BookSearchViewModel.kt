@@ -25,7 +25,7 @@ class BookSearchViewModel(
     }
 
     // SavedState
-    private var query = String()
+    var query = String()
         set(value) {
             field = value
             savedStateHandle[SAVE_STATE_KEY] = value
