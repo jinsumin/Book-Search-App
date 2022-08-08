@@ -13,5 +13,4 @@ class BookSearchRepositoryImpl : BookSearchRepository {
     ): Response<SearchResponse> {
         return api.searchBook(query, sort, page, size)
     }
-
 }
